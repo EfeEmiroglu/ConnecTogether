@@ -1,0 +1,2 @@
+rootProject.name = "FinalConnect"
+include ':app'
