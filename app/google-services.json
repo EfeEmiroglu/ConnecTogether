@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "900170857325",
+    "project_id": "finalconnect-b2eb2",
+    "storage_bucket": "finalconnect-b2eb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900170857325:android:291c10a022beb74f68b864",
+        "android_client_info": {
+          "package_name": "com.example.finalconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900170857325-blges39h104pqd3prjldb1u6b8pmalq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdQjEUJMnsEByID6f79MUgm-P2tei1QMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900170857325-blges39h104pqd3prjldb1u6b8pmalq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
