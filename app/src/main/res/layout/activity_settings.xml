@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="246dp"
+        android:layout_height="582dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/statusView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+        <Switch
+            android:id="@+id/statusSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="Left" />
+
+        <Switch
+            android:id="@+id/statusSwitch2"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="Right" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Save"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:text="Instructions: To show the side of the picture on the desired device
+                          the user needs to switch to 'Left' or 'Right' for devices to understand
+                          where they are placed. If 'Left' is selected and saved on this device,
+                          this device will show the left side of the picture."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
